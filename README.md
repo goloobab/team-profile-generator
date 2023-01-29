@@ -56,8 +56,8 @@ node index.js
 ## Things I learned 
 * Using the gitingore file
 * Installing of different dependencies
-* How to use the node package manager
-* Exporting modules
+* Creating and using constructors
+* Exporting classes
 * Using the inquirer package
 * Using of the template literals
 
