@@ -35,16 +35,6 @@ As a manager a user want to generate a webpage that displays my team's basic inf
 
 ---
 
-## Mock-Up
-
-The following image shows a mock-up of the generated HTML’s appearance and functionality:
-
-![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./Assets/14-object-oriented-programming-challenge-demo.png)
-
-The styling in the image is just an example, so feel free to add your own.
-
----
-
 ## Technologies required
 
 * [Jest](https://www.npmjs.com/package/jest) for running the unit tests 
