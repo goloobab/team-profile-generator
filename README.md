@@ -1,9 +1,7 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Team Profile Generator
 
 This application takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
-
-## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
@@ -49,7 +47,8 @@ The styling in the image is just an example, so feel free to add your own.
 
 ## Technologies required
 
-*  [Jest](https://www.npmjs.com/package/jest) for running the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. 
+* [Jest](https://www.npmjs.com/package/jest) for running the unit tests 
+* [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. 
 The application will be invoked by using the following command:
 
 ```bash
@@ -58,15 +57,34 @@ node index.js
 
 ---
 
-## Hints
+## Challenges
+* Creating the logic to switch questions depending on user choice. 
+* Getting the right dependency versions to use and install
+* Determining what to include in the gitignore file
+* Installing the right node version for the project
 
-* You will want to make your methods as pure as possible. This means try to make your methods simple so that they are easier to test.
+## Things I learned 
+* Using the gitingore file
+* Installing of different dependencies
+* How to use the node package manager
+* Exporting modules
+* Using the inquirer package
+* Using of the template literals
 
-* The different employee types should all inherit some methods and properties from a base class of `Employee`.
+## Screen Shot
+
+## Links
+Project Repository:  https://github.com/goloobab/readme-generator
+
+## License 
+Please refer to the LICENSE enclosed in the repository
+
+## Contacts
+
+If you have any questions, please contact me at: 
  
-* Be sure to test out each class and verify it generates an object with the correct structure and methods. This structure will be crucial in order for the provided `render` function to work!
-  
-* You may need to check if the `output` folder exists and create it if it does not.
+  Github Profile: [goloobab](https://github.com/goloobab/)  
 
----
+  Email: [Billy Golooba](mailto:goloobab@gmail.com) 
 
+  LinkedIn: [ Billy Golooba ](https://linkedin.com/in/goloobab)
