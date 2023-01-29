@@ -2,6 +2,9 @@
 
 This application takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
 
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 This project us a commad Line application that accepts user input using inquirer with the help of Node.js.The user will be presented with a series of question prompts to gather information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. 
