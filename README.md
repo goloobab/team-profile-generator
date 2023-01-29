@@ -65,7 +65,7 @@ node index.js
 ![screencapture-team-profile-generator-output-team-html-2023-01-29-23_00_45](https://user-images.githubusercontent.com/26630637/215360643-5ea08c04-6261-4449-ab82-9052d40e84fa.png)
 
 ## Links
-Project Repository:  https://github.com/goloobab/readme-generator
+Project Repository:  https://github.com/goloobab/team-profile-generator
 
 ## License 
 Please refer to the LICENSE enclosed in the repository
