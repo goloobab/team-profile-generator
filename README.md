@@ -62,6 +62,7 @@ node index.js
 * Using of the template literals
 
 ## Screen Shot
+![screencapture-team-profile-generator-output-team-html-2023-01-29-22_27_38](https://user-images.githubusercontent.com/26630637/215359270-23c68f1a-4cb6-459e-8635-accb0518aa48.png)
 
 ## Links
 Project Repository:  https://github.com/goloobab/readme-generator
