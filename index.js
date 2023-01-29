@@ -17,6 +17,7 @@ let team = []
 
 buildTeam()
 
+//Function runs the team manager prompts and calls the menu.
 function buildTeam() {
     inquirer.prompt([{
         type: 'input',
@@ -48,4 +49,53 @@ function buildTeam() {
 
         chooseFromMenu();
     })
+}
+
+function chooseFromMenu() {
+    inquirer.prompt([
+        {
+            type: 'list',
+            name: 'menu',
+            message: 'Choose a catergory to add?',
+            choices: [
+                'Add an Engineer',
+                'Add an Intern',
+                'Finish building the team'
+            ]
+        }
+    ]).then(function (answers) {
+        if (answers.menu === 'Add an Engineer') {
+            promptEngineerDetails()
+                .then((answers) => {
+                    const engineer = new Engineer(
+                        answers.name,
+                        answers.id,
+                        answers.email,
+                        answers.github
+                    )
+                    team.push(engineer)
+                }).then(() => chooseFromMenu())
+
+        } else if (answers.menu === 'Add an Intern') {
+            promptInternDetails()
+                .then((answers) => {
+                    const intern = new Intern(
+                        answers.name,
+                        answers.id,
+                        answers.email,
+                        answers.school
+                    )
+                    team.push(intern)
+                }).then(() => chooseFromMenu())
+
+        } else {
+            console.log("You are building team..")
+            console.log(team)
+
+            const htmlFile = render(team)
+            fs.writeFileSync(outputPath, htmlFile)
+        }
+
+    })
+
 }
