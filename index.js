@@ -99,3 +99,51 @@ function chooseFromMenu() {
     })
 
 }
+
+
+function promptEngineerDetails() {
+    return inquirer.prompt([{
+        type: 'input',
+        name: 'name',
+        message: 'Enter name of the Engineer?'
+    },
+    {
+        type: 'input',
+        name: 'id',
+        message: 'Enter Employee ID of the Engineer?'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter the email of the Engineer?'
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter Github username?'
+    }])
+}
+
+//Runs prompts to capture Intern details
+function promptInternDetails() {
+    return inquirer.prompt([{
+        type: 'input',
+        name: 'name',
+        message: 'Enter name of the Intern?'
+    },
+    {
+        type: 'input',
+        name: 'id',
+        message: 'Enter Employee ID of the Intern?'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter the email of the Intern?'
+    },
+    {
+        type: 'input',
+        name: 'school',
+        message: 'Enter School name?'
+    }])
+}
